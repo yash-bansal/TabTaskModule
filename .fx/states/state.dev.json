@@ -1,0 +1,28 @@
+{
+    "solution": {
+        "provisionSucceeded": true,
+        "teamsAppTenantId": "fdef05c2-d725-42ee-84d9-d9d0541241c0",
+        "subscriptionId": "9643fc64-35e4-4ea0-8efe-af4e24065dd9",
+        "subscriptionName": "Free Trial",
+        "tenantId": "fdef05c2-d725-42ee-84d9-d9d0541241c0",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "TabTaskModule-dev-rg",
+        "location": "East US",
+        "resourceNameSuffix": "ce0859"
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "fdef05c2-d725-42ee-84d9-d9d0541241c0",
+        "teamsAppId": "8e83acb9-ca8f-4642-88c0-a33e28a94e82"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "domain": "tabtaskmoda88737tab.z13.web.core.windows.net",
+        "endpoint": "https://tabtaskmoda88737tab.z13.web.core.windows.net",
+        "storageResourceId": "/subscriptions/9643fc64-35e4-4ea0-8efe-af4e24065dd9/resourceGroups/TabTaskModule-dev-rg/providers/Microsoft.Storage/storageAccounts/tabtaskmoda88737tab"
+    },
+    "fx-resource-identity": {
+        "identityName": "tabtaskmoda88737",
+        "identityResourceId": "/subscriptions/9643fc64-35e4-4ea0-8efe-af4e24065dd9/resourceGroups/TabTaskModule-dev-rg/providers/Microsoft.ManagedIdentity/userAssignedIdentities/tabtaskmoda88737",
+        "identityClientId": "dc6d9e65-8f97-4d7d-aa10-6329ff2952a4"
+    }
+}

@@ -1,0 +1,55 @@
+.alignRight {
+    text-align: right;
+}
+
+.alignLeft {
+    text-align: left;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.primaryBG {
+    background-color: #30D5C8;
+}
+
+.secondaryBG {
+    background-color: #2e2e38;
+}
+
+.primaryFG {
+    color: #30D5C8;
+}
+
+.secondaryFG {
+    color: #2e2e38;
+}
+
+.primaryButton {
+    background-color: #30D5C8;
+    color: #2e2e38;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 2rem;
+}
+
+
+/* Card styles */
+
+.videoTile {
+    background: white;
+    padding: 1rem;
+    margin: 1rem; 
+    border: 1px solid #30D5C8; 
+    border-radius: 0.25rem; 
+    box-shadow: 0px 0px 9px 0px #30d5c8;
+}
+
+.videoTitle {
+    height: 8rem;
+    color: black; 
+    font-size: 1.5rem; 
+    font-weight: 500; 
+    display: block;
+}

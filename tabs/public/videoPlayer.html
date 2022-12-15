@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Player</title>
+</head>
+
+<body>
+    <div class="ms-Grid">
+        <div class="ms-Grid-row">
+            <div class="ms-Grid-col ms-sm12" style="height:94vh">
+                <iframe id="youTubeIFrame" width="100%" height="100%" src="" title="YouTube Player"
+                    allowFullScreen={true} style="padding: 0.5rem 0; border: none"></iframe>
+            </div>
+        </div>
+    </div>
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const vid = urlParams.get('v');
+        document.getElementById('youTubeIFrame').setAttribute('src', "https://www.youtube.com/embed/" + vid)
+    </script>
+</body>
+
+</html>
